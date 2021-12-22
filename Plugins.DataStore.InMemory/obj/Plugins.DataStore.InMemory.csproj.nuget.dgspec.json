@@ -1,0 +1,181 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\Plugins.DataStore.InMemory\\Plugins.DataStore.InMemory.csproj": {}
+  },
+  "projects": {
+    "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\CoreBusiness\\CoreBusiness.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\CoreBusiness\\CoreBusiness.csproj",
+        "projectName": "CoreBusiness",
+        "projectPath": "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\CoreBusiness\\CoreBusiness.csproj",
+        "packagesPath": "C:\\Users\\ValeriPC\\.nuget\\packages\\",
+        "outputPath": "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\CoreBusiness\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ValeriPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/CielaNorma/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\Plugins.DataStore.InMemory\\Plugins.DataStore.InMemory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\Plugins.DataStore.InMemory\\Plugins.DataStore.InMemory.csproj",
+        "projectName": "Plugins.DataStore.InMemory",
+        "projectPath": "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\Plugins.DataStore.InMemory\\Plugins.DataStore.InMemory.csproj",
+        "packagesPath": "C:\\Users\\ValeriPC\\.nuget\\packages\\",
+        "outputPath": "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\Plugins.DataStore.InMemory\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ValeriPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/CielaNorma/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\UseCases\\UseCases.csproj": {
+                "projectPath": "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\UseCases\\UseCases.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\UseCases\\UseCases.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\UseCases\\UseCases.csproj",
+        "projectName": "UseCases",
+        "projectPath": "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\UseCases\\UseCases.csproj",
+        "packagesPath": "C:\\Users\\ValeriPC\\.nuget\\packages\\",
+        "outputPath": "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\UseCases\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ValeriPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/CielaNorma/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\CoreBusiness\\CoreBusiness.csproj": {
+                "projectPath": "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\CoreBusiness\\CoreBusiness.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

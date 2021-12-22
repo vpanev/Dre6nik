@@ -1,0 +1,12 @@
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\CoreBusiness\bin\Debug\net5.0\CoreBusiness.deps.json
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\CoreBusiness\bin\Debug\net5.0\CoreBusiness.dll
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\CoreBusiness\bin\Debug\net5.0\ref\CoreBusiness.dll
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\CoreBusiness\bin\Debug\net5.0\CoreBusiness.pdb
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\CoreBusiness\obj\Debug\net5.0\CoreBusiness.csproj.AssemblyReference.cache
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\CoreBusiness\obj\Debug\net5.0\CoreBusiness.GeneratedMSBuildEditorConfig.editorconfig
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\CoreBusiness\obj\Debug\net5.0\CoreBusiness.AssemblyInfoInputs.cache
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\CoreBusiness\obj\Debug\net5.0\CoreBusiness.AssemblyInfo.cs
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\CoreBusiness\obj\Debug\net5.0\CoreBusiness.csproj.CoreCompileInputs.cache
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\CoreBusiness\obj\Debug\net5.0\CoreBusiness.dll
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\CoreBusiness\obj\Debug\net5.0\ref\CoreBusiness.dll
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\CoreBusiness\obj\Debug\net5.0\CoreBusiness.pdb

@@ -1,0 +1,15 @@
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\UseCases\bin\Debug\net5.0\UseCases.deps.json
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\UseCases\bin\Debug\net5.0\UseCases.dll
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\UseCases\bin\Debug\net5.0\ref\UseCases.dll
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\UseCases\bin\Debug\net5.0\UseCases.pdb
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\UseCases\bin\Debug\net5.0\CoreBusiness.dll
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\UseCases\bin\Debug\net5.0\CoreBusiness.pdb
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\UseCases\obj\Debug\net5.0\UseCases.csproj.AssemblyReference.cache
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\UseCases\obj\Debug\net5.0\UseCases.GeneratedMSBuildEditorConfig.editorconfig
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\UseCases\obj\Debug\net5.0\UseCases.AssemblyInfoInputs.cache
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\UseCases\obj\Debug\net5.0\UseCases.AssemblyInfo.cs
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\UseCases\obj\Debug\net5.0\UseCases.csproj.CoreCompileInputs.cache
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\UseCases\obj\Debug\net5.0\UseCases.csproj.CopyComplete
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\UseCases\obj\Debug\net5.0\UseCases.dll
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\UseCases\obj\Debug\net5.0\ref\UseCases.dll
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\UseCases\obj\Debug\net5.0\UseCases.pdb

@@ -1,0 +1,17 @@
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Plugins.DataStore.InMemory\bin\Debug\net5.0\Plugins.DataStore.InMemory.deps.json
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Plugins.DataStore.InMemory\bin\Debug\net5.0\Plugins.DataStore.InMemory.dll
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Plugins.DataStore.InMemory\bin\Debug\net5.0\ref\Plugins.DataStore.InMemory.dll
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Plugins.DataStore.InMemory\bin\Debug\net5.0\Plugins.DataStore.InMemory.pdb
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Plugins.DataStore.InMemory\bin\Debug\net5.0\CoreBusiness.dll
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Plugins.DataStore.InMemory\bin\Debug\net5.0\UseCases.dll
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Plugins.DataStore.InMemory\bin\Debug\net5.0\UseCases.pdb
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Plugins.DataStore.InMemory\bin\Debug\net5.0\CoreBusiness.pdb
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Plugins.DataStore.InMemory\obj\Debug\net5.0\Plugins.DataStore.InMemory.csproj.AssemblyReference.cache
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Plugins.DataStore.InMemory\obj\Debug\net5.0\Plugins.DataStore.InMemory.GeneratedMSBuildEditorConfig.editorconfig
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Plugins.DataStore.InMemory\obj\Debug\net5.0\Plugins.DataStore.InMemory.AssemblyInfoInputs.cache
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Plugins.DataStore.InMemory\obj\Debug\net5.0\Plugins.DataStore.InMemory.AssemblyInfo.cs
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Plugins.DataStore.InMemory\obj\Debug\net5.0\Plugins.DataStore.InMemory.csproj.CoreCompileInputs.cache
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Plugins.DataStore.InMemory\obj\Debug\net5.0\Plugins.DataStore.InMemory.csproj.CopyComplete
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Plugins.DataStore.InMemory\obj\Debug\net5.0\Plugins.DataStore.InMemory.dll
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Plugins.DataStore.InMemory\obj\Debug\net5.0\ref\Plugins.DataStore.InMemory.dll
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Plugins.DataStore.InMemory\obj\Debug\net5.0\Plugins.DataStore.InMemory.pdb

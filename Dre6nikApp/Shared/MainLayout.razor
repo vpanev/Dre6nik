@@ -1,0 +1,71 @@
+﻿@*@inherits LayoutComponentBase
+
+    <div class="page">
+        <div class="sidebar">
+            <NavMenu />
+        </div>
+
+        <div class="main">
+            <div class="top-row px-4">
+                <a href="https://docs.microsoft.com/aspnet/" target="_blank">Login</a>
+            </div>
+
+            <div class="content px-4">
+                @Body
+            </div>
+        </div>
+    </div>
+*@
+
+
+@inherits LayoutComponentBase
+
+
+<header class="site-header sticky-top py-1">
+    <nav class="container d-flex flex-column flex-md-row justify-content-between">
+        <NavLink class="py-2 d-none d-md-inline-block" href="" Match="NavLinkMatch.All">
+            <span class="oi oi-home" aria-hidden="true"></span> Home
+        </NavLink>
+        <NavLink class="py-2 d-none d-md-inline-block" href="cashier_console"
+                 @onmouseover="() => expandSubNav = !expandSubNav"
+                 @onmouseout="() => expandSubNav = !expandSubNav"
+                 >
+            <span class="oi oi-list" aria-hidden="true"></span> Дрехи
+        </NavLink>
+        @if (expandSubNav)
+        {
+            <li class="dropdown-menu show">
+            <li class="nav-item">
+                <NavLink class="nav-link" href="counter">
+                    <span class="oi oi-list-rich" aria-hidden="true"></span> Мъжки дрехи
+                </NavLink>
+            </li>
+            <li class="nav-item">
+                <NavLink class="nav-link" href="counter">
+                    <span class="oi oi-list-rich" aria-hidden="true"></span> Женски дрехи
+                </NavLink>
+            </li>
+            </li>
+        }
+        <NavLink class="py-2 d-none d-md-inline-block" href="categories">
+            <span class="oi oi-plus" aria-hidden="true"></span> Categories
+        </NavLink>
+        <NavLink class="py-2 d-none d-md-inline-block" href="products">
+            <span class="oi oi-plus" aria-hidden="true"></span> Products
+        </NavLink>
+        <NavLink class="py-2 d-none d-md-inline-block" href="transactions">
+            <span class="oi oi-plus" aria-hidden="true"></span> Reports
+        </NavLink>
+
+        <LoginDisplay></LoginDisplay>
+
+    </nav>
+</header>
+
+<main class="content px-4">
+    @Body
+</main>
+
+@code{
+    private bool expandSubNav;
+}
