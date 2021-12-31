@@ -1,0 +1,66 @@
+﻿@using Radzen.Blazor
+@using System.Collections
+<div class="left-menu-container">
+    <div class="price-slider">
+        <RadzenCard class="m-3">
+            <h5>Ценова Рамка</h5>
+            <h4 class="mb-4">@values.Min() - @values.Max()</h4>
+            <RadzenSlider Range="true" @bind-Value=@values Min="0" Max="1000" TValue="IEnumerable<int>" Change=@(args => OnChange(args, "Range Slider")) Class="w-100" />
+        </RadzenCard>
+        <RadzenCard class="m-3">
+            <h5>Производител</h5>
+            <RadzenListBox AllowFiltering="true"
+                           FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive"
+                           @bind-Value=@multipleBrandValues
+                           Multiple="true"
+                           Data=@brands
+                           Change=@(args => OnChange(args, "ListBox with multiple selection"))
+                           Style="height:250px"
+                           Placeholder="Търси"
+                           Class="w-100" />
+        </RadzenCard>
+        <RadzenCard class="m-3">
+            <h5>Цвят</h5>
+            <RadzenListBox AllowFiltering="true"
+                           FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive"
+                           @bind-Value=@multipleColorValues
+                           Multiple="true"
+                           Data=@colors
+                           Change=@(args => OnChange(args, "ListBox with multiple selection"))
+                           Style="height:250px"
+                           Placeholder="Търси"
+                           Class="w-100" />
+        </RadzenCard>
+        <RadzenCard class="m-3">
+            <h5>Пол</h5>
+            <RadzenCheckBoxList
+                @bind-Value=@genders
+                TValue="int"
+                Change=@(args => OnChange(args, "CheckBoxList with horizontal orientation"))
+                Style="height: 50px"
+                Class="w-100">
+                <Items>
+                    <RadzenCheckBoxListItem Text="Мъж" Value="1" Style="float:left" />
+                    <RadzenCheckBoxListItem Text="Жена" Value="2" Style="float: right"/>
+                </Items>
+            </RadzenCheckBoxList>
+        </RadzenCard>
+    </div>
+</div>
+
+@*TextProperty="CompanyName"
+    ValueProperty="CustomerID"*@
+@code {
+    IEnumerable<int> values = new int[] { 0, 1000 };
+    IEnumerable<string> multipleBrandValues = new string[] { "ALFKI", "ANATR" };
+    IEnumerable<string> brands = new string[] { "CALVIN KLEIN", "GUESS", "EMPORIO ARMANI", "PUMA", "ADIDAS", "NIKE" };
+    IEnumerable<string> colors = new string[] { "RED", "GREEN", "BLUE", "BENBEN" };
+    IEnumerable<string> multipleColorValues = new string[] { "ALFKI", "ANATR" };
+
+    IEnumerable<int> genders = new int[] { 1 };
+
+    void OnChange(dynamic value, string name)
+    {
+        var str = value is IEnumerable ? string.Join(", ", value) : value;
+    }
+}

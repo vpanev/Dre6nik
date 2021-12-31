@@ -15,3 +15,6 @@ D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Plugins.DataStore.InMemory\obj\Debug\net5.0
 D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Plugins.DataStore.InMemory\obj\Debug\net5.0\Plugins.DataStore.InMemory.dll
 D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Plugins.DataStore.InMemory\obj\Debug\net5.0\ref\Plugins.DataStore.InMemory.dll
 D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Plugins.DataStore.InMemory\obj\Debug\net5.0\Plugins.DataStore.InMemory.pdb
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Plugins.DataStore.InMemory\bin\Debug\net5.0\Plugins.DataStore.InMemory.runtimeconfig.json
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Plugins.DataStore.InMemory\bin\Debug\net5.0\Plugins.DataStore.InMemory.runtimeconfig.dev.json
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Plugins.DataStore.InMemory\obj\Debug\net5.0\Plugins.DataStore.InMemory.genruntimeconfig.cache

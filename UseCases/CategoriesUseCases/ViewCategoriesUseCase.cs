@@ -1,5 +1,5 @@
-﻿using System.Collections.Generic;
-using CoreBusiness;
+﻿using CoreBusiness;
+using System.Collections.Generic;
 using UseCases.DataStorePluginInterfaces;
 
 namespace UseCases
@@ -12,6 +12,7 @@ namespace UseCases
         {
             this.categoryRepository = categoryRepository;
         }
+
         public IEnumerable<Category> Execute()
         {
             return categoryRepository.GetCategories();

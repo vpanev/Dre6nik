@@ -83,8 +83,36 @@ using Dre6nikApp.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 13 "D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Dre6nikApp\_Imports.razor"
+#line 12 "D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Dre6nikApp\_Imports.razor"
 using CoreBusiness;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 13 "D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Dre6nikApp\_Imports.razor"
+using Radzen;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 14 "D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Dre6nikApp\_Imports.razor"
+using Radzen.Blazor;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 15 "D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Dre6nikApp\_Imports.razor"
+using MatBlazor;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 2 "D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Dre6nikApp\Pages\CategoriesComponent.razor"
+using Plugins.DataStore.SQL;
 
 #line default
 #line hidden
@@ -98,7 +126,7 @@ using CoreBusiness;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 36 "D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Dre6nikApp\Pages\CategoriesComponent.razor"
+#line 37 "D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Dre6nikApp\Pages\CategoriesComponent.razor"
        
     private List<Category> categories;
 
@@ -126,21 +154,21 @@ using CoreBusiness;
 #line hidden
 #nullable disable
 #nullable restore
-#line 57 "D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Dre6nikApp\Pages\CategoriesComponent.razor"
+#line 58 "D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Dre6nikApp\Pages\CategoriesComponent.razor"
                                                      
         LoadCategories();
     }
 
     private void LoadCategories()
     {
-        categories = ViewCategoriesUseCase.Execute()?.ToList();
+        categories = this.categoryRepository.GetCategories().ToList();
     }
 
 
 #line default
 #line hidden
 #nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private UseCases.IViewCategoriesUseCase ViewCategoriesUseCase { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private ICategoryRepository categoryRepository { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
     }
 }

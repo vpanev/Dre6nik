@@ -1,3 +1,6 @@
 ﻿<StaticWebAssets Version="1.0">
   <ContentRoot BasePath="/" Path="D:\VISUAL STUDIO PROJECTS\Dre6nikApp\Dre6nikApp\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="/Identity" Path="C:\Users\ValeriPC\.nuget\packages\microsoft.aspnetcore.identity.ui\5.0.12\staticwebassets\V4\" />
+  <ContentRoot BasePath="_content/MatBlazor" Path="C:\Users\ValeriPC\.nuget\packages\matblazor\2.8.0\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/Radzen.Blazor" Path="C:\Users\ValeriPC\.nuget\packages\radzen.blazor\3.13.10\build\..\staticwebassets\" />
 </StaticWebAssets>

@@ -1,12 +1,15 @@
+using CoreBusiness;
 using Dre6nikApp.Data;
+using MatBlazor;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Plugins.DataStore.InMemory;
-using UseCases;
-using UseCases.DataStorePluginInterfaces;
+using Plugins.DataStore.SQL;
+using Radzen;
 
 namespace Dre6nikApp
 {
@@ -25,13 +28,45 @@ namespace Dre6nikApp
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            services.AddSingleton<WeatherForecastService>();
 
-            //Dependency Injection for In-Memory Data Store
-            services.AddScoped<ICategoryRepository, CategoryInMemoryRepository>();
+
+            services.AddIdentity<Customer, IdentityRole>(options =>
+                {
+                    options.Password.RequireDigit = false;
+                    options.Password.RequiredLength = 6;
+                    options.Password.RequireNonAlphanumeric = false;
+                    options.Password.RequireUppercase = false;
+                    options.Password.RequireLowercase = false;
+                    options.User.RequireUniqueEmail = true;
+                })
+                .AddDefaultUI()
+                .AddEntityFrameworkStores<Dre6nikAppContext>();
+
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("UserPolicy", policy => policy.RequireClaim("Role", "User", "Admin"));
+                options.AddPolicy("AdminPolicy", policy => policy.RequireClaim("Role", "Admin"));
+            });
+
+            services.AddDbContext<Dre6nikAppContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("AppConnection"),
+                    b => b.MigrationsAssembly("Dre6nikApp")));
+
 
             //Dependency Injection for Use Cases and Repositories
-            services.AddTransient<IViewCategoriesUseCase, ViewCategoriesUseCase>();
+            /*services.AddTransient<IViewCategoriesUseCase, ViewCategoriesUseCase>();
+            services.AddTransient<IAddCategoryUseCase, AddCategoryUseCase>();
+            services.AddTransient<IEditCategoryUseCase, EditCategoryUseCase>();
+            services.AddTransient<IGetCategoryByIdUseCase, GetCategoryByIdUseCase>();
+            services.AddTransient<IDeleteCategoryUseCase, DeleteCategoryUseCase>();*/
+            services.AddMatBlazor();
+
+            services.AddHttpClient();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<IProductRepository, ProductRepository>();
+
+            services.AddHttpContextAccessor();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -52,6 +87,8 @@ namespace Dre6nikApp
             app.UseStaticFiles();
 
             app.UseRouting();
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {

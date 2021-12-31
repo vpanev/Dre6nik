@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dre6nikApp", "Dre6nikApp.csproj", "{E5111C6F-B729-4892-9097-8F9475AF0B64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dre6nikApp", "Dre6nikApp.csproj", "{E5111C6F-B729-4892-9097-8F9475AF0B64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCases", "..\UseCases\UseCases.csproj", "{8513E64C-6A22-4D9B-899E-4651FAAB23DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UseCases", "..\UseCases\UseCases.csproj", "{8513E64C-6A22-4D9B-899E-4651FAAB23DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreBusiness", "..\CoreBusiness\CoreBusiness.csproj", "{D91DD02B-5C8B-4FDC-B9C6-EB246B15C6F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreBusiness", "..\CoreBusiness\CoreBusiness.csproj", "{D91DD02B-5C8B-4FDC-B9C6-EB246B15C6F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugins.DataStore.InMemory", "..\Plugins.DataStore.InMemory\Plugins.DataStore.InMemory.csproj", "{EFFF3C79-381A-49C3-BD04-D7FC888F6D13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugins.DataStore.SQL", "..\Plugins.DataStore.SQL\Plugins.DataStore.SQL.csproj", "{C20674A9-9B46-4707-AA5D-3EE2B2F57C69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{D91DD02B-5C8B-4FDC-B9C6-EB246B15C6F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D91DD02B-5C8B-4FDC-B9C6-EB246B15C6F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D91DD02B-5C8B-4FDC-B9C6-EB246B15C6F2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EFFF3C79-381A-49C3-BD04-D7FC888F6D13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EFFF3C79-381A-49C3-BD04-D7FC888F6D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EFFF3C79-381A-49C3-BD04-D7FC888F6D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EFFF3C79-381A-49C3-BD04-D7FC888F6D13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C20674A9-9B46-4707-AA5D-3EE2B2F57C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C20674A9-9B46-4707-AA5D-3EE2B2F57C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C20674A9-9B46-4707-AA5D-3EE2B2F57C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C20674A9-9B46-4707-AA5D-3EE2B2F57C69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

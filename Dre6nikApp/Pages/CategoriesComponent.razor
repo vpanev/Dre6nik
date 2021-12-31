@@ -1,8 +1,9 @@
 ﻿@page "/categories"
+@using Plugins.DataStore.SQL
 
 
 @inject NavigationManager NavigationManager
-@inject UseCases.IViewCategoriesUseCase ViewCategoriesUseCase;
+@inject ICategoryRepository categoryRepository;
 <h3>Manage Categories</h3>
 
 @if (categories != null)
@@ -60,7 +61,7 @@
 
     private void LoadCategories()
     {
-        categories = ViewCategoriesUseCase.Execute()?.ToList();
+        categories = this.categoryRepository.GetCategories().ToList();
     }
 
 }

@@ -1,10 +1,10 @@
-﻿using System.Collections.Generic;
-using CoreBusiness;
+﻿using CoreBusiness;
+using System.Collections.Generic;
 
 namespace UseCases
 {
     public interface IViewCategoriesUseCase
     {
-        public IEnumerable<Category> Execute();
+        IEnumerable<Category> Execute();
     }
 }

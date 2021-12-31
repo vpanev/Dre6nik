@@ -40,6 +40,44 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "MatBlazor": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Radzen.Blazor": {
+              "target": "Package",
+              "version": "[3.13.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -87,8 +125,8 @@
               "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\CoreBusiness\\CoreBusiness.csproj": {
                 "projectPath": "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\CoreBusiness\\CoreBusiness.csproj"
               },
-              "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\Plugins.DataStore.InMemory\\Plugins.DataStore.InMemory.csproj": {
-                "projectPath": "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\Plugins.DataStore.InMemory\\Plugins.DataStore.InMemory.csproj"
+              "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\Plugins.DataStore.SQL\\Plugins.DataStore.SQL.csproj": {
+                "projectPath": "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\Plugins.DataStore.SQL\\Plugins.DataStore.SQL.csproj"
               },
               "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\UseCases\\UseCases.csproj": {
                 "projectPath": "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\UseCases\\UseCases.csproj"
@@ -105,6 +143,48 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "MatBlazor": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Radzen.Blazor": {
+              "target": "Package",
+              "version": "[3.13.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -127,14 +207,14 @@
         }
       }
     },
-    "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\Plugins.DataStore.InMemory\\Plugins.DataStore.InMemory.csproj": {
+    "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\Plugins.DataStore.SQL\\Plugins.DataStore.SQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\Plugins.DataStore.InMemory\\Plugins.DataStore.InMemory.csproj",
-        "projectName": "Plugins.DataStore.InMemory",
-        "projectPath": "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\Plugins.DataStore.InMemory\\Plugins.DataStore.InMemory.csproj",
+        "projectUniqueName": "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\Plugins.DataStore.SQL\\Plugins.DataStore.SQL.csproj",
+        "projectName": "Plugins.DataStore.SQL",
+        "projectPath": "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\Plugins.DataStore.SQL\\Plugins.DataStore.SQL.csproj",
         "packagesPath": "C:\\Users\\ValeriPC\\.nuget\\packages\\",
-        "outputPath": "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\Plugins.DataStore.InMemory\\obj\\",
+        "outputPath": "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\Plugins.DataStore.SQL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ValeriPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -152,8 +232,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\UseCases\\UseCases.csproj": {
-                "projectPath": "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\UseCases\\UseCases.csproj"
+              "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\CoreBusiness\\CoreBusiness.csproj": {
+                "projectPath": "D:\\VISUAL STUDIO PROJECTS\\Dre6nikApp\\CoreBusiness\\CoreBusiness.csproj"
               }
             }
           }
@@ -167,6 +247,44 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "MatBlazor": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Radzen.Blazor": {
+              "target": "Package",
+              "version": "[3.13.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -226,6 +344,44 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "MatBlazor": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Radzen.Blazor": {
+              "target": "Package",
+              "version": "[3.13.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

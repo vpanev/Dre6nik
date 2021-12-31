@@ -10,3 +10,6 @@ D:\VISUAL STUDIO PROJECTS\Dre6nikApp\CoreBusiness\obj\Debug\net5.0\CoreBusiness.
 D:\VISUAL STUDIO PROJECTS\Dre6nikApp\CoreBusiness\obj\Debug\net5.0\CoreBusiness.dll
 D:\VISUAL STUDIO PROJECTS\Dre6nikApp\CoreBusiness\obj\Debug\net5.0\ref\CoreBusiness.dll
 D:\VISUAL STUDIO PROJECTS\Dre6nikApp\CoreBusiness\obj\Debug\net5.0\CoreBusiness.pdb
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\CoreBusiness\bin\Debug\net5.0\CoreBusiness.runtimeconfig.json
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\CoreBusiness\bin\Debug\net5.0\CoreBusiness.runtimeconfig.dev.json
+D:\VISUAL STUDIO PROJECTS\Dre6nikApp\CoreBusiness\obj\Debug\net5.0\CoreBusiness.genruntimeconfig.cache

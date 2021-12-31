@@ -1,0 +1,29 @@
+﻿@page "/clothes"
+@using Plugins.DataStore.SQL
+
+@inject IProductRepository productRepository;
+<div class="container-lg">
+    <LeftMenu></LeftMenu>
+    <div class="page-content" style="width: 80%; float: right">
+        @foreach (var product in products)
+        {
+            <RadzenCard class="m-3 w-25 h-50" id="product-card">
+                <img src="images/top-brands/@product.PictureUrl" width="100%" height="80%" />
+                <h5>@product.Name</h5>
+                <h5>@product.Color</h5>
+                <h5>@product.Size</h5>
+                <h5>@product.UnitPrice</h5>
+            </RadzenCard>
+        }
+    </div>
+    <Footer></Footer>
+</div>
+
+@code {
+    private List<Product> products;
+    protected override void OnInitialized()
+    {
+        products = this.productRepository.GetProducts().ToList();
+    }
+
+}
